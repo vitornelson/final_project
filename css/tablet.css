@@ -1,0 +1,234 @@
+@media only screen and (min-width: 600px) {
+    /*put things here*/
+    /*Fonts*/
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: saddlebrown;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px;
+    }
+    h1{
+        font-size: 42px;
+        font-weight: 600;
+        margin-bottom: 10%;
+        padding: 1%;
+    }
+    h2{
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 5%;
+        margin-top: 1%;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 18px;
+        max-width: 1000px;
+    }
+    footer > p{
+        font-size: 15px;
+    }
+
+/* navigation menu*/
+    #menu{
+        margin-top: -10%;
+        margin-bottom: 5%;
+    }
+    #menu .active {
+        background-color: #ac6f44;
+        text-decoration: underline;
+    }
+    #menu ul{
+        text-align: center;
+    }
+    #menu li{
+        background-color: saddlebrown;
+        color: #bae37b;
+        margin: 5px;
+        display: inline-block;
+        padding: 1%;
+        position: relative;
+        width: 150px;
+
+    }
+    #menu a{
+        color: #bae37b;
+        text-decoration: none;
+    }
+    ul.submenu{
+        margin-top: 7%;
+        margin-left: -4%;
+        position: absolute;
+        background-color: saddlebrown;
+        padding-left: 0px;
+        display: none;
+    }
+    .submenu a{
+        margin-top: 5%;
+    }
+    .submenu{
+        z-index: 999;
+    }
+
+
+/*Main text*/
+    #logo > h1{
+        text-align: center;
+    }
+    header, main, footer{
+        padding: 1%;
+    }
+
+    #text_right{
+        padding: 5%;
+        border: solid;
+    }
+    .text_left{
+        padding: 5%;
+
+    }
+    #bord{
+        border: solid;
+    }
+    .temp{
+        text-align: center;
+    }
+    .just{
+        text-align: justify;
+        padding: 1%;
+    }
+    footer{
+        text-align: center;
+    }
+    footer > a{
+        background-color: saddlebrown;
+    }
+    iframe{
+        padding: 10px;
+        margin-left: -5%;
+
+    }
+    #contact_form{
+        padding: 5%;
+    }
+
+
+/* Images*/
+    li img{
+        width: 600px;
+
+    }
+    #logo img{
+        display: block;
+        margin: 0 auto;
+}
+/*Main content display*/
+    #main_content{
+        border: 1px solid;
+        border-radius: 25px;
+        background-color: #bae37b;
+
+    }
+    body{
+        background-image: url(/final_project/images/river1000_px.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*
+    #middle {
+       display:flex;
+       flex-direction: column;
+       padding: 5%;
+    }
+    #side{
+       width: 100%;
+
+    }*/
+    /*tables prices*/
+    table{
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    th,td{
+        border: solid 1px;
+        width: 50%;
+    }
+    th{
+        text-align: left;
+    }
+    td{
+        text-align: center;
+    }
+    /*Forms*/
+    form#advent {
+        margin: 1em 3%;
+    }
+    fieldset {
+        background-color: #e4dccf;
+        border-radius: .8em;
+        margin: 1.5em 0;
+        border: #917a56 solid 1px;
+    }
+    legend {
+        color: #7d2a35;
+        margin-left: 6%;
+        padding: .5em;
+        border: #917a56 solid 1px;
+        background-color: #f2eee7;
+        border-radius: .4em;
+    }
+    label{
+        display: block;
+        margin: .5em;
+    }
+    label span{
+        display: block;
+        font-size: .8em;
+        color: #917a56;
+        padding-top: .9em;
+        padding-bottom: .2em;
+    }
+    input.submitBtn{
+        -webkit-appearance: none; /*remove the apple mobile default styling*/
+        color: #fff;
+        border: solid 1px #111;
+        border-radius:7px;
+        width: 50%;
+        margin:.5em 0;
+        font-size: 1em;
+        padding: .6em;
+        background: saddlebrown; /* Old browsers */
+        box-shadow: 4px 4px 10px #666;
+        text-align: center;
+        margin-left: 25%;
+    }
+    #btn{
+        -webkit-appearance: none; /*remove the apple mobile default styling*/
+        color: #fff;
+        border: solid 1px #111;
+        border-radius:7px;
+        width: 50%;
+        margin:.5em 0;
+        font-size: 1em;
+        padding: .6em;
+        background: saddlebrown;
+        box-shadow: 4px 4px 10px #666;
+        text-align: center;
+        margin-left: 40%;
+        text-decoration: none;
+    }
+/*Video*/
+    video{
+        display: block;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+
+}
+
